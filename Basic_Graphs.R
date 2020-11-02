@@ -20,4 +20,5 @@ plot(studentinfo$age,type="l",xlab="Student id",ylab="Age",col="red")
 #To draw a barplot
 barplot(marks,names.arg=studentid,xlab="Student id",ylab="Marks",col="red")
 
+#To draw a pie chart                          
 pie(table(studentinfo$gender))
